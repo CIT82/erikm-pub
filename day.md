@@ -13,6 +13,7 @@
 
 ## Work Block
 - **9:45 AM - 8:00 PM**: Get some work done throughout the day 💼
+  - **CIT 82**, **CIT 93**, **CIT 28**: Work on assignments and study throughout the day 📖
 
 ## Afternoon Leisure (Varies)
 - **4:00 PM - 7:00 PM**: Reading 📚, Gaming 🎮, or Movies/Shows 🎬 (depends on the day, mood, etc.)
