@@ -1,0 +1,64 @@
+body {
+    background-image: url('C:/Users/ai/Pictures/yu-gi-oh-duel-monsters.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #FFD700; /* Gold text color */
+    background-color: #2E8B57; /* Sea green fallback color */
+  }
+  
+  header {
+    background-color: #4B0082; /* Indigo */
+    color: #FFFFF0; /* Ivory */
+    padding: 10px 0;
+    border: 10px solid #FFD700; /* Gold border */
+  }
+  
+  main {
+    font-style: italic;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    background-color: #708090; /* Slate gray */
+  }
+  
+  .outline {
+    border: 2px solid #FFD700; /* Gold border */
+  }
+  
+  footer {
+    background-color: #4B0082; /* Indigo */
+    color: #FFFFF0; /* Ivory */
+    padding: 10px 0;
+    border-top: 2px solid #FFD700; /* Gold border */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  button {
+    background-color: #FFD700; /* Gold */
+    color: #4B0082; /* Indigo */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  button:hover {
+    background-color: #FFA500; /* Orange */
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border: 2px solid #FFD700; /* Gold border */
+    border-radius: 10px;
+  }
+  
