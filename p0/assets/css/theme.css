@@ -60,15 +60,15 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #424242;
-  background-color: #FFFEFE;
+  color: #fa1515;
+  background-color: #161f9b;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(41, 38, 38, 0);
 }
 
 hr {
   margin: 1rem 0;
-  color: #EEEEEE;
+  color: #420101;
   background-color: currentColor;
   border: 0;
   opacity: 1;
@@ -223,7 +223,7 @@ a {
 }
 
 a:hover {
-  color: #0E6FFF;
+  color: #b40af7;
   text-decoration: underline;
 }
 
