@@ -14,3 +14,5 @@
 13. Add Animations: Include simple animations on hover effects for links or buttons.
 14. Change Section Layouts: Rearrange sections to focus on the Patriots' upcoming games and news.
 15. Update Links: Make sure all links point to relevant Patriots content or official sources.
+
+
