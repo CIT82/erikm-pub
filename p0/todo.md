@@ -15,4 +15,5 @@
 14. Change Section Layouts: Rearrange sections to focus on the Patriots' upcoming games and news.
 15. Update Links: Make sure all links point to relevant Patriots content or official sources.
 
+got overall format of my pages done just got to add more pics 
 
