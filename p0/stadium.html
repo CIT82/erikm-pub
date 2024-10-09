@@ -1,95 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>New England Patriots - Fan Site</title>
-
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
-  <link rel="manifest" href="assets/img/favicons/manifest.json">
-  <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
-  <meta name="theme-color" content="#ffffff">
-
-  <!-- Stylesheets -->
-  <link href="assets/css/theme.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patriots Stadium</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/pats.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/pats.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+    <link href="assets/css/theme.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-4 d-block navbar-space" data-navbar-on-scroll="data-navbar-on-scroll">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">
-        <img src="assets/img/gallery/pats.png" height="84" alt="New England Patriots" />
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <main class="main" id="top">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top py-4 d-block navbar-space" data-navbar-on-scroll="data-navbar-on-scroll">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/img/gallery/pats.png" height="84" alt="New England Patriots" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base">
+              <li class="nav-item dropdown px-2">
+                <a class="nav-link dropdown-toggle fw-medium active" aria-current="page" href="index.html" id="homeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Home
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="homeDropdown">
+                  <li><a class="dropdown-item" href="index.html">Home </a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown px-2">
+                <a class="nav-link dropdown-toggle" href="#" id="teamOverviewDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Team Overview
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="teamOverviewDropdown">
+                  <li><a class="dropdown-item" href="roster.html">Roster </a></li>
+                  <li><a class="dropdown-item" href="coaching.html">Coaching Staff </a></li>
+                  <li><a class="dropdown-item" href="stadium.html">Stadium </a></li>
+                  <li><a class="dropdown-item" href="Depth-Chart.html">Depth Chart</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown px-2">
+                <a class="nav-link dropdown-toggle" href="#" id="historyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  History
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="historyDropdown">
+                  <li><a class="dropdown-item" href="early-years.html">Founding and Early Years </a></li>
+                  <li><a class="dropdown-item" href="super-bowl.html">Super Bowl Wins </a></li>
+                  <li><a class="dropdown-item" href="notable-players.html">Notable Players </a></li>
+                  <li><a class="dropdown-item" href="Hall-of-Fame.html">Hall of Fame </a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown px-2">
+                <a class="nav-link dropdown-toggle" href="#" id="scheduleDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Schedule
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="scheduleDropdown">
+                  <li><a class="dropdown-item" href="upcoming-games.html">Upcoming Games </a></li>
+                  <li><a class="dropdown-item" href="past-results.html">Past Results </a></li>
+                  <li><a class="dropdown-item" href="season-highlights.html">Season Highlights </a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown px-2">
+                <a class="nav-link dropdown-toggle" href="#" id="fanZoneDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Fan Zone
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="fanZoneDropdown">
+                  <li><a class="dropdown-item" href="merchandise.html">Fan Merchandise </a></li>
+                  <li><a class="dropdown-item" href="community.html">Patriots in the Community </a></li>
+                  <li><a class="dropdown-item" href="fan-clubs.html">Patriots Fan Clubs </a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="ps-lg-5">
+              <a class="btn btn-outline-warning text-primary order-1 order-lg-0" href="https://www.patriots.com/">LETS GOOOO</a>
+            </form>
+          </div>
+        </div>
+      </nav>
 
-      <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base">
-          <li class="nav-item dropdown px-2">
-            <a class="nav-link dropdown-toggle fw-medium active" aria-current="page" href="index.html" id="homeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
-            <ul class="dropdown-menu" aria-labelledby="homeDropdown">
-              <li><a class="dropdown-item" href="index.html">Home</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown px-2">
-            <a class="nav-link dropdown-toggle" href="#" id="teamOverviewDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Team Overview</a>
-            <ul class="dropdown-menu" aria-labelledby="teamOverviewDropdown">
-              <li><a class="dropdown-item" href="roster.html">Roster</a></li>
-              <li><a class="dropdown-item" href="coaching.html">Coaching Staff</a></li>
-              <li><a class="dropdown-item" href="stadium.html">Stadium</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown px-2">
-            <a class="nav-link dropdown-toggle" href="#" id="historyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">History</a>
-            <ul class="dropdown-menu" aria-labelledby="historyDropdown">
-              <li><a class="dropdown-item" href="early-years.html">Founding and Early Years</a></li>
-              <li><a class="dropdown-item" href="super-bowl.html">Super Bowl Wins</a></li>
-              <li><a class="dropdown-item" href="notable-players.html">Notable Players</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown px-2">
-            <a class="nav-link dropdown-toggle" href="#" id="scheduleDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Schedule</a>
-            <ul class="dropdown-menu" aria-labelledby="scheduleDropdown">
-              <li><a class="dropdown-item" href="upcoming-games.html">Upcoming Games</a></li>
-              <li><a class="dropdown-item" href="past-results.html">Past Results</a></li>
-              <li><a class="dropdown-item" href="season-highlights.html">Season Highlights</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown px-2">
-            <a class="nav-link dropdown-toggle" href="#" id="fanZoneDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fan Zone</a>
-            <ul class="dropdown-menu" aria-labelledby="fanZoneDropdown">
-              <li><a class="dropdown-item" href="merchandise.html">Fan Merchandise</a></li>
-              <li><a class="dropdown-item" href="community.html">Patriots in the Community</a></li>
-              <li><a class="dropdown-item" href="fan-clubs.html">Patriots Fan Clubs</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="ps-lg-5">
-          <a class="btn btn-outline-warning text-primary order-1 order-lg-0" href="#!">LETS GOOOO</a>
-        </form>
+      <div class="background-image" style="background-image: url(assets/img/gallery/Gillette.jpg); background-position: 460px center; background-repeat: no-repeat; background-size: contain;">
       </div>
-    </div>
-  </nav>
 
-  <!-- Main Content -->
-  <main class="main" id="top">
-    <!-- Hero Section -->
-    <section class="py-5 overflow-hidden" id="home">
-      <div class="bg-holder w-50 bg-right d-none d-md-block" style="background-image:url(assets/img/gallery/hero-header.png);"></div>
-      <div class="container">
-        <h1>Welcome to the New England Patriots</h1>
-        <p>Introducing visitors to the New England Patriots website, a team with a rich history...</p>
-      </div>
-    </section>
-  </main>
+      <section id="stadium-overview" class="py-4 overflow-hidden">
+        <div class="container">
+            <div class="row h-100">
+                <div class="col-lg-7 mx-auto text-center py-5">
+                    <h5>Stadium Overview</h5>
+                    <h5 class="fw-bold fs-3 fs-lg-5 fs-xxl-7">Gillette Stadium<br />Home of the New England Patriots</h5>
+                </div>
+                <div class="col-12">
+                    <div class="carousel slide" id="carouselStadium" data-bs-touch="false" data-bs-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <div class="row gx-3 px-3 pt-3 h-100">
+                                    <div class="col-sm-6 col-lg-3 mb-5">
+                                        <div class="card shadow h-100 px-3 py-5">
+                                            <div class="card-body">
+                                                <h3>Gillette Stadium</h3>
+                                                <p>Opened in 2002, located in Foxborough, Massachusetts, home to the Patriots and Revolution.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3 mb-5">
+                                        <div class="card shadow h-100 px-3 py-5">
+                                            <div class="card-body">
+                                                <h3>Capacity</h3>
+                                                <p>Seating capacity of approximately 65,878 for football games.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3 mb-5">
+                                        <div class="card shadow h-100 px-3 py-5">
+                                            <div class="card-body">
+                                                <h3>Design</h3>
+                                                <p>Designed by HNTB, featuring a distinctive open-air design with views of the surrounding area.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3 mb-5">
+                                        <div class="card shadow h-100 px-3 py-5">
+                                            <div class="card-body">
+                                                <h3>Events</h3>
+                                                <p>Hosts concerts, college football, and other major events, alongside NFL games.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="5000">
+                                <div class="row gx-3 px-3 pt-3 h-100">
+                                    <div class="col-sm-6 col-lg-3 mb-5">
+                                        <div class="card shadow h-100 px-3 py-5">
+                                            <div class="card-body">
+                                                <h3>Accessibility</h3>
+                                                <p>Fully accessible for all fans, with features like elevators and dedicated seating areas.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3 mb-5">
+                                        <div class="card shadow h-100 px-3 py-5">
+                                            <div class="card-body">
+                                                <h3>Parking</h3>
+                                                <p>Offers ample parking space with shuttle services for major events.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3 mb-5">
+                                        <div class="card shadow h-100 px-3 py-5">
+                                            <div class="card-body">
+                                                <h3>Food and Beverage</h3>
+                                                <p>Features a variety of food and beverage options, including local vendors.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3 mb-5">
+                                        <div class="card shadow h-100 px-3 py-5">
+                                            <div class="card-body">
+                                                <h3>Memorabilia</h3>
+                                                <p>Home to various Patriots' memorabilia and exhibits celebrating the team's history.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselStadium" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselStadium" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="py-0 pt-7 bg-1000" id="help">
 
-  <!-- Scripts -->
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-8 col-xl-4"><img src="assets/img/gallery/pats.png" height="54" alt="..." />
+                <p class="text-light mt-4">This brought to You By Class CIT 82 FAll 2024</p>
+              </div>
+              <div class="col-6 col-md-4 col-xl-2 mb-3">
+                <h5 class="lh-lg fw-bold text-white">Patriots Fans</h5>
+                <ul class="list-unstyled mb-md-4 mb-lg-0">
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">About Us</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Team</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">championships</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">overall</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-4 col-xl-2 mb-3">
+                <h5 class="lh-lg fw-bold text-white">Resources</h5>
+                <ul class="list-unstyled mb-md-4 mb-lg-0">
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Terms To Join</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Help To Join Fanbase</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Class Policy</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-4 col-xl-2 mb-3">
+                <h5 class="lh-lg fw-bold text-white">Blog</h5>
+                <ul class="list-unstyled mb-md-4 mb-lg-0">
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Lifestyle</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Article</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Tech</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-4 col-xl-2 mb-3">
+                <h5 class="lh-lg fw-bold text-white">CONTACT</h5>
+                <ul class="list-unstyled mb-md-4 mb-lg-0">
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Help &amp; Support</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Join  us </a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Ride with us</a></li>
+                </ul>
+              </div>
+            </div>
+            <hr class="border border-800" />
+            <div class="row flex-center pb-3">
+              <div class="col-md-6 order-0">
+                <p class="text-200 text-center text-md-start">All rights Reserved &copy; CL3V3RLINK, 2024</p>
+              </div>
+              <div class="col-md-6 order-1">
+                <p class="text-200 text-center text-md-end"> Brought To You By&nbsp;
+                  <svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#0E6FFF" viewBox="0 0 16 16">
+                    <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"></path>
+                  </svg>&nbsp;by&nbsp;<a class="text-200 fw-bold" href="https://themewagon.com/" target="_blank">The End </a>
+                </p>
+              </div>
+            </div>
+          </div>
+      </main>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/theme.js"></script>
+  </body>
+  </html>
